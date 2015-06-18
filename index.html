@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/styles.css" />
+	<script type="text/javascript" src="cordova.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -16,7 +17,12 @@
 				<p class="list-group-item-text">
 					Informatie over deze applicatie
 				</p>
+				
+				
 			</a>
+			
+			<button class="btn btn-default bt-lg btn-block" onclick="window.plugins.socialsharing.share('Message only')">message only</button>
+    	
 		</div>
 	</div>
 </body>
